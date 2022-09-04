@@ -128,4 +128,5 @@ class Model(nn.Module):
 
         ret = self.disc(c, h_mv)
 
-        return ret
+        #return(ret)
+        return (h_1)
